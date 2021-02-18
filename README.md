@@ -10,4 +10,10 @@ Ever tried to access an UFRJ website with no success? This repository contains m
 python3 check_ufrj.py
 ```
 
+- If you want to check it in a loop, just do:
+
+```
+python3 loop_check.py
+```
+
 That's it for most purposes!

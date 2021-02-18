@@ -6,11 +6,15 @@ from multiprocessing import Pool
 # Few hosts on UFRJ
 #
 hosts = [
-  'if.ufrj.br',
-  'im.ufrj.br',
+  #'if.ufrj.br',
+  #'im.ufrj.br',
   'cos.ufrj.br',
-  'poli.ufrj.br',
-  'nce.ufrj.br',
+  #'poli.ufrj.br',
+  #'nce.ufrj.br',
+  'laspi.ufrj.br',
+  'lps.ufrj.br',
+  'pads.ufrj.br',
+  'smt.ufrj.br'
 ]
 
 #
