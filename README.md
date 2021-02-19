@@ -1,24 +1,14 @@
-# is_ufrj_down
+# Is UFRJ down?
 
-## Project setup
-```
-npm install
-```
+Ever tried to access an UFRJ website with no success? This repository contains minor code for checking a few UFRJ HTTPS servers.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is hosted at [https://gabriel-milan.github.io/is_ufrj_down/](https://gabriel-milan.github.io/is_ufrj_down/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Adding servers to the list
 
-### Lints and fixes files
-```
-npm run lint
-```
+Requirements:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Must be HTTPS
+- The server must provide a valid SSL certificate when requested
+
+If requirements are met, please submit an issue with the hostname you want to add to the server list.
