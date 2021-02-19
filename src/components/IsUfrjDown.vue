@@ -44,27 +44,11 @@ export default {
           status: "unk",
           updated: false,
         },
-        "laspi.ufrj.br": {
-          status: "unk",
-          updated: false,
-        },
         "lps.ufrj.br": {
           status: "unk",
           updated: false,
         },
         "poli.ufrj.br": {
-          status: "unk",
-          updated: false,
-        },
-        "nce.ufrj.br": {
-          status: "unk",
-          updated: false,
-        },
-        "im.ufrj.br": {
-          status: "unk",
-          updated: false,
-        },
-        "if.ufrj.br": {
           status: "unk",
           updated: false,
         },
@@ -100,7 +84,7 @@ export default {
       const signal = controller.signal;
       const options = { mode: "no-cors", signal };
       this.servers[hostname].updated = false;
-      let url = `http://${hostname}`;
+      let url = `https://${hostname}`;
       fetch(url, options)
         .then((resp) => {
           setTimeout(() => {
