@@ -4,6 +4,12 @@
 
 <template>
   <div class="made-with-love">
+    <a :href="`https://github.com/` + repo">
+      <img
+        :alt="`Star me at https://github.com/` + repo"
+        :src="`https://img.shields.io/github/stars/` + repo + `?style=social`"
+      />
+    </a>
     <p>
       {{ code ? "&lt;/&gt;" : "Made" }} with ❤️
       {{ by ? "by" : "" }}
@@ -12,6 +18,7 @@
         {{ !link ? by : "" }}
       </span>
       {{ after_message }}
+      <br />
     </p>
   </div>
 </template>
@@ -33,6 +40,10 @@ export default {
       default: false,
     },
     after_message: {
+      type: String,
+      default: "",
+    },
+    repo: {
       type: String,
       default: "",
     },

@@ -3,7 +3,11 @@
     <img alt="Vue logo" width="200" src="./assets/logo.png" />
     <IsUfrjDown />
     <br />
-    <MadeWithLove by="Gabriel Milan" link="https://github.com/gabriel-milan/" />
+    <MadeWithLove
+      by="Gabriel Milan"
+      link="https://github.com/gabriel-milan/"
+      repo="gabriel-milan/is_ufrj_down"
+    />
   </div>
 </template>
 
